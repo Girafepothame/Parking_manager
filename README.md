@@ -55,14 +55,7 @@ Va dans le dossier frontend et installe les dépendances:
 cd frontend
 npm install
 ```
-
-
-### Explications des sections :
-
-1. **Structure du projet** : J'ai défini l’arborescence de ton projet pour aider les développeurs à mieux comprendre la structure.
-2. **Installation** : Les étapes pour configurer à la fois le backend Django et le frontend Vue3, ainsi que l'installation des dépendances.
-3. **Configuration de l'API** : J'ai mentionné l'utilisation de Django REST Framework pour gérer l'API et comment tu peux l'intégrer avec le frontend Vue3 en utilisant une requête HTTP (comme avec Axios).
-4. **Démarrage des serveurs** : Des instructions pour démarrer à la fois le backend et le frontend.
-5. **Déploiement** : Quelques ressources pour t'aider à déployer ton application.
-
-Cela te semble-t-il adapté à ce que tu cherches ?
+puis
+```bash
+npm run serve
+```
